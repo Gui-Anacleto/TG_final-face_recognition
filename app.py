@@ -28,7 +28,7 @@ class Application(Funcs):
         self.root.maxsize(width= 325, height=300) 
         self.root.minsize(width= 325, height=300)
           
-    # Controi a tela de cadastro.
+    # Constroi a tela de cadastro.
     def tela_cad(self, cad=None):
         
         cad = Tk()
